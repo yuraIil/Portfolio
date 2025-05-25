@@ -15,6 +15,34 @@ img {
   border-radius: 8px;
 }
 
+/* ====== Navbar (custom) ====== */
+.custom-navbar {
+  background-color: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 2px 5px rgba(110, 255, 124, 0.1);
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.custom-navbar .navbar-brand {
+  color: #6eff7c;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.custom-navbar .nav-link {
+  color: #ccc;
+  font-size: 0.95rem;
+  margin-left: 20px;
+  transition: 0.2s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #6eff7c;
+}
+
+
+
 /* ====== Hero ====== */
 .hero {
   min-height: 100vh;
